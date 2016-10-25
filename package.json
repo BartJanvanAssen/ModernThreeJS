@@ -1,7 +1,7 @@
 {
-  "name": "project_hello",
+  "name": "Modern Tree.JS",
   "version": "1.0.0",
-  "description": "Lets say hello to you!",
+  "description": "Get going with your dev tools!",
   "main": "index.js",
   "scripts": {
     "dev": "webpack -d --watch",
