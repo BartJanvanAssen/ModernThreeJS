@@ -1,0 +1,44 @@
+.button{
+    margin:0;
+    border:0;
+    border-radius: 2px;
+    padding:0;
+    display:inline-block;
+    vertical-align:middle;
+    white-space:normal;
+    background:none;
+    line-height:1;
+    /* Browsers have different default form fonts */
+    font-size:13px;
+    font-family:Arial;
+
+     &.submit{
+            height: 36px;
+            line-height: 36px;
+            color: $white;
+            float: right;
+            padding: 0 16px;
+            font-size: 13pt;
+            background-color: $blue;
+            text-transform: uppercase;
+        }
+}
+
+.col-12{
+    width: 100%;
+    float: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-grey{
+    color: rgba($black, 0.54);
+    font-weight: bold;
+}
+.text-lightgrey{
+    color: rgba($black, 0.38);
+    font-weight: bold;
+}
+.hidden{
+    display: none;
+}
