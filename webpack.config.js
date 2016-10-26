@@ -14,9 +14,9 @@ function getEntrySources(sources) {
 
 module.exports = {
     entry: getEntrySources([
-        './src/core.js'
+        './src/main.js'
     ]),
-
+    devtool: 'eval',
     output: {
         path: './dist',
         filename: 'app.bundle.js'
